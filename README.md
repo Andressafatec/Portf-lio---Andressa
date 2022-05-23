@@ -1,5 +1,11 @@
 # Portfólio - Andressa
 
+<div align="center">
+      
+![](/src/static/IMGS/LOGO.png)
+      
+</div>
+
 ## Projeto Portifólio Design Digital 
 
 **Descrição das Pastas:**
