@@ -15,7 +15,7 @@
 
 ## Executando o projeto
 
-### Primeiro Instale o [Python na versão 3.10](https://www.pyth.org/download/)
+### Primeiro Instale o [Python](https://www.python.org/downloads/)
 
 Depois de baixar o python e clonar o projeto (ou baixá-lo) pelo link https://github.com/Andressafatec/Portf-lio---Andressa.git:
 
