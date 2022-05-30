@@ -484,22 +484,6 @@ footer span a:hover {
     .about .about-content .right {
         flex: 100%;
     }
-    .contact .contact-content .left .icons {
-        margin: 5% 0px;
-        display: grid;
-        align-items: center;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .contact .contact-content .row {
-        height: auto;
-        display: flex;
-        grid-column: 1;
-        align-items: center;
-    }
-    .contact .contact-content .row .info{
-        margin-bottom: 3%;
-    
-    }
 }
 
 @media (max-width: 690px) {
