@@ -120,7 +120,7 @@ html {
 }
 
 .home .home-content .text-3 span {
-    color: #87CEEB;
+    color: #fff;
     font-weight: 500;
 }
 
@@ -395,7 +395,7 @@ footer {
 }
 
 footer span a {
-    color: #87CEEB;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -505,12 +505,16 @@ footer span a:hover {
 
 @media (max-width: 500px) {
     .home {
-        display: Block;
+        display: flex;
+        background: url(IMGS/fundo2.jpg) no-repeat center;
         background-size: 100% 100%;
-        height: auto;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        font-family: 'Ubuntu', sans-serif;
     }
     .home .home-content .text-2 {
-        font-size: 25px;
+        font-size: 30px;
     }
     .home .home-content .text-3 {
         font-size: 20px;
