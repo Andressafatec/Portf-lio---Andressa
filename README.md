@@ -21,10 +21,16 @@ Depois de baixar o python e clonar o projeto (ou baixá-lo) pelo link https://gi
 
 ``` powershell
 # Acesse a pasta do projeto por meio do terminal
-cd src
+cd  Portf-lio---Andressa
+
+# Acessar o ambiente virtual 
+venv\Scripts\activate
 
 # Instale as dependências
 pip install -r requirements.txt
+
+# Acesse a pasta de código do projeto
+cd src
       
 # Habilitar recurso de desenvolvimento
 set FLASK_APP=app.py
