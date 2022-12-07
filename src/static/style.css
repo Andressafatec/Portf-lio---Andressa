@@ -342,45 +342,45 @@ footer {
 
 /*  Contato  */
 
-.contact .contact-content {
-    align-items: flex-start;
+.contact .contact-content .column {
+    width: calc(50% - 50px);
+    margin: 0 35%;
 }
-.contact .contact-content .column{
-    width: calc(80% - 30px);
-}
-.contact .contact-content .p{
+
+.contact .contact-content .p {
     text-align: justify;
-    
-}
-.contact .contact-content .icons{
-    margin: 5% 0;
 }
 
 .contact .contact-content .text {
-    font-size: 25px;
-    font-weight: 60%;
-    margin-bottom: 3%;
-    margin-left: 58%;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact .contact-content.icons {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .contact .contact-content .row{
+    height: 65px;
     display: flex;
-    height: auto;
-    font-size: 20px;
+    grid-column: 1;
     align-items: center;
+    padding: 15% 0;
 }
 .contact .contact-content .row .info{
-    margin-left: 58%;
-    margin-bottom: 3%;
+    margin-left: 10px;
 
 }
 .contact .contact-content .info .head{
-    font-weight: 80%;
+    font-weight: 100%;
 }
 .contact .contact-content .info .sub-title{
     color: #333;
 }
-
 
 
 /*  Footer  */
